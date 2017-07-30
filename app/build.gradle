@@ -27,7 +27,6 @@ android {
         targetSdkVersion 24
     }
     productFlavors {
-        unitTest
     }
     sourceSets {
         unitTest {
