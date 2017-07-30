@@ -36,7 +36,7 @@ import java.util.Calendar;
 public class MainActivity extends Activity {
 
 
-    gg
+
     // Logger for this class.
     private static final String TAG = "MainActivity";
 

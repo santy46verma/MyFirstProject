@@ -27,6 +27,14 @@ android {
         targetSdkVersion 24
     }
     productFlavors {
+        unitTest
+    }
+    sourceSets {
+        unitTest {
+            java {
+                srcDir 'src/test/java' // New scope includes our unit test folder
+            }
+        }
     }
 }
 
